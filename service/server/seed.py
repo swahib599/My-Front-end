@@ -4,6 +4,7 @@ from datetime import datetime
 from models import db, User, Cocktail, Ingredient, CocktailIngredient, Review
 from flask import Flask
 from config import Config
+from flask_cors import CORS
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
